@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: DevEx-Platform
+  description: An example of a Backstage application.
+  annotations:
+    github.com/project-slug: 'ItRachii/DevEx-Platform'
+    jenkins.io/job-full-name: 'backstage-job/backstage-job'
+spec:
+  type: service
+  owner: Rachit
+  lifecycle: experimental
